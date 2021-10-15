@@ -1,5 +1,5 @@
 @echo off
-FOR /L %%A IN (1,1,10) DO (
+FOR /L %%A IN (1,1,5) DO (
 color 2
 :start
 echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%
@@ -13,7 +13,7 @@ echo %random% %random% %random% %random% %random% %random% %random% %random% %ra
 )
 color 2
 echo "You are being hacked....."
-TIMEOUT 5
+WAITFOR /t 100
 FOR /L %%A IN (1,1,5) DO (
 color 2
 :start
@@ -27,6 +27,6 @@ color 4
 echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%
 )
 echo "Downloading Files.... 99% completed"
-TIMEOUT 5
+
 
 goto start
