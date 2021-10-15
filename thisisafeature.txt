@@ -1,6 +1,3 @@
 Feature
-<<<<<<< HEAD
 Ot oh
-=======
 EMOTIONAL CONFLICT!?!?!
->>>>>>> 7535967b223b43cae25685e2f376eae4820336ec
